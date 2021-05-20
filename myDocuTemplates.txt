@@ -1,0 +1,31 @@
+
+File:
+
+/** @file myFile.h
+ *  @brief Function prototypes for the driver.
+ *
+ *  This contains the prototypes for the
+ *  driver and eventually any macros, constants,
+ *  or global variables you will need.
+ *
+ *  @author Mario A. Lugo
+ */
+
+
+Function:
+
+/*******************************************************************************
+
+ * @fn          GPIO_InitPin
+ * @brief       Esta funcion configura los Pines
+ *              GPIOs como entrada o salida.
+ *
+ * @param[in]	GPIOx Nombre del puerto (GPIOA, GPIOB, etc.).
+ * @param[in]   GPIO_Pin Numero del pin.
+ * @param[in]   GPIO_MODE Modo Entrada o Salida. 
+ *
+ * @return      none
+ *
+ * @note        none
+ ******************************************************************************/
+void GPIO_InitPin(uint8_t GPIOx, uint8_t GPIO_Pin, uint8_t GPIO_MODE)
